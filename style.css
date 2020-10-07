@@ -1,0 +1,52 @@
+body {
+  margin: 2%;
+}
+
+.webpageHead {
+  background-color: #423e37;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.topnav {
+  color: #edebd7;
+}
+
+.topnav a:hover {
+    color: #A39594;
+}
+
+.topnav-logo {
+    float: left;
+    margin: 35px;
+}
+
+h1 {
+  color: #e3b23c;
+  float: left;
+  margin: 40px;
+  padding: 10px;
+}
+
+h1 a:hover {
+    color: #A39594;
+}
+
+.topnav-menu {
+    float: right;
+    margin: 65px;
+    
+}
+
+footer {
+    background-color: #423e37;
+    color: #edebd7;
+    text-align: center;
+}
+
+/* Add ".menu a:hover {" here and 
+    add a hover color and BG color */
