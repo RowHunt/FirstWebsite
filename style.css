@@ -7,18 +7,32 @@ body {
   overflow: hidden;
 }
 
-a {
-  text-decoration: none;
-  color: white;
+/* WEBPAGE TOP NAVIGATION */
+
+.topnav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
 }
 
-.topnav {
+.topnav-menu {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
   color: #edebd7;
+  padding: 14px 16px;
 }
 
 .topnav a:hover {
     color: #A39594;
 }
+
 
 .topnav-logo {
     float: left;
@@ -27,20 +41,15 @@ a {
 
 h1 {
   color: #e3b23c;
-  float: left;
-  margin: 40px;
-  padding: 10px;
+
 }
 
 h1 a:hover {
     color: #A39594;
 }
 
-.topnav-menu {
-    float: right;
-    margin: 65px;
-    
-}
+
+/* WEBPAGE FOOTER */
 
 footer {
     background-color: #423e37;
@@ -48,5 +57,4 @@ footer {
     text-align: center;
 }
 
-/* Add ".menu a:hover {" here and 
-    add a hover color and BG color */
+
