@@ -15,6 +15,8 @@
 
 .menu {
   text-align: right;
+  margin-right: 10px;
+  margin-top: 30px;
 }
 
 nav {
@@ -30,16 +32,53 @@ nav {
   width: 50%;
 }
 
-nav ul {
+tr a {
+  padding: 3px;
+}
+
+.selfie {
+    line-height: 80px;
+    margin: 10px;
+    border: 1px solid black;
+    float: left;
+    width: 50%;
+}
+
+.aboutMe {
+  line-height: 135px;
+  margin: 10px;
+  border: 1px solid black;
   float: right;
-  margin-right: 20px;
-  color: #423e37;
+  width: 40%;
+}
+
+.aboutMe h2 {
+  text-align: center;
+}
+
+.aboutMe p {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+.followMe {
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin: 40px;
+}
+
+.link {
+  margin-top: 15px;
 }
 
 /* WEBPAGE FOOTER */
 
-footer {
+.footer {
   background-color: #423e37;
   color: #edebd7;
   text-align: center;
+  float: left;
+  width: 100%;
 }
