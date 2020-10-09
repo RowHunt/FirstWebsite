@@ -4,6 +4,8 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  background: #423e37;
+  color: #edebd7;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -15,8 +17,9 @@
 
 .menu {
   text-align: right;
-  margin-right: 10px;
   margin-top: 30px;
+  position: relative;
+  right: 75px;
 }
 
 nav {
@@ -27,9 +30,16 @@ nav {
 .logo {
   line-height: 80px;
   margin: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   float: left;
   width: 50%;
+  /* position: relative;
+  left: 50px; */
+}
+
+.logo img {
+  position: relative;
+  left: 100px;
 }
 
 tr a {
@@ -39,17 +49,21 @@ tr a {
 .selfie {
     line-height: 80px;
     margin: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     float: left;
     width: 50%;
+    position: relative;
+    left: 160px;
 }
 
 .aboutMe {
   line-height: 135px;
   margin: 10px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   float: right;
   width: 40%;
+  position: relative;
+  right: 105px;
 }
 
 .aboutMe h2 {
@@ -57,9 +71,10 @@ tr a {
 }
 
 .aboutMe p {
-  text-align: justify;
+  text-align: center;
   line-height: 25px;
   font-size: 20px;
+  margin: inherit;
 }
 
 .followMe {
@@ -67,7 +82,13 @@ tr a {
   text-align: center;
   width: 100%;
   margin: 40px;
+  position: relative;
+  right: 40px;
 }
+
+.followMeInfo h2 {
+  border: 1px solid black;
+} 
 
 .link {
   margin-top: 15px;
